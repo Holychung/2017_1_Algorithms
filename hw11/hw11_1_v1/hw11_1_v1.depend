@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1513525150 source:c:\users\user\desktop\hw11_1_v1\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<cstdio>
+	<algorithm>
+

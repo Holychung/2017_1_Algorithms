@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1512416785 source:c:\users\user\desktop\hw10_1\main.cpp
+	<iostream>
+	<cstdlib>
+	<algorithm>
+
+1512481592 source:c:\users\user\desktop\hw10_1_v1\main.cpp
+	<iostream>
+	<cstdlib>
+	<algorithm>
+

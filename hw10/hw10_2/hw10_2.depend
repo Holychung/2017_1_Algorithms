@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512627434 source:c:\users\user\desktop\hw10_2\main.cpp
+	<iostream>
+	<vector>
+	<string.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1511246225 source:c:\users\user\desktop\hw8_1\main.cpp
+	<iostream>
+	<cstdio>
+

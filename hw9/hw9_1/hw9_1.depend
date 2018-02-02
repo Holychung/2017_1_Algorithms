@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1511797339 source:c:\users\user\desktop\hw9_1\main.cpp
+	<iostream>
+	<math.h>
+
+1511851167 source:c:\users\user\desktop\hw9_1_v2\main.cpp
+	<iostream>
+	<cstdio>
+	<math.h>
+

@@ -1,0 +1,20 @@
+edge[a].size()
+
+    for(int i = 0; i < V; i++)
+        for(int a = 0; a <= V; a++)
+            for(int b = 0; b <= V; b++)
+                if (wdist[a] + w[a][b] < wdist[b])
+                    wdist[b] = wdist[a] + w[a][b];
+					
+	for(int i = 0; i < V; i++)
+        for(int a = 0; a <= V; a++)
+            for(int b = 0; b < edge[i].size(); b++)
+                if (wdist[a] + w[a][edge[i][b]] < wdist[edge[i][b]])
+                    wdist[edge[i][b]] = wdist[a] + w[a][edge[i][b]];
+					
+	for(int i = 1; i <= V; i++)
+        for(int j = 0; j < edge[i].size(); j++)
+        {
+            w[i][edge[i][j]] += wdist[i] - wdist[edge[i][j]]; // reweighing
+            //cout << "w: " << w[i][edge[i][j]] << endl;
+        }

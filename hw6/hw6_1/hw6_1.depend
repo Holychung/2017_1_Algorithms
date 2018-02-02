@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509384467 source:c:\users\user\desktop\hw6_1\main.cpp
+	<iostream>
+	<algorithm>
+
